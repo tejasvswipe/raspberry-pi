@@ -1,0 +1,42 @@
+Category,Item,Quantity,Recommended Purchase Quantity,Specification / Notes,Required,Estimated Unit Price INR,Estimated Total INR
+Main electronics,Raspberry Pi 5,1,1,8 GB model; use active cooling,Yes,12000,12000
+Main electronics,Raspberry Pi Active Cooler,1,1,Recommended for Pi 5 thermal management,Yes,750,750
+Display,Raspberry Pi Touch Display 2,1,1,7-inch assumed; approximately 189.32 x 120.24 mm,Yes,9500,9500
+Display,Display ribbon/FFC cable,1,1,Use the cable required by the selected Touch Display 2 and Pi 5 connection,Yes,500,500
+Camera,Raspberry Pi Camera Module 3 or compatible camera,1,1,Standard or Wide variant; bracket is generic,Yes,3000,3000
+Camera,Camera ribbon cable,1,1,Select length suitable for case routing,Yes,300,300
+Wireless,External USB Wi-Fi module,1,1,Optional because Raspberry Pi 5 already has onboard dual-band Wi-Fi; use a Linux-compatible USB adapter if extra Wi-Fi hardware is required,Optional,1200,1200
+Battery,Single-cell Li-ion/LiPo battery,1,1,Nominal 3.7 V; 5000 mAh; measure actual pack before printing,Yes,750,750
+Battery,1S Li-ion/LiPo USB-C charger with protection,1,1,Must support single-cell CC/CV charging and battery protection/BMS,Yes,400,400
+Battery,5 V boost converter / power-management board,1,1,Regulated 5 V output sized for Raspberry Pi 5 peak current,Yes,1000,1000
+Battery,Power switch,1,1,Rated for battery and boost-converter current,Recommended,150,150
+Battery,USB-C panel connector or pigtail,1,1,Mechanical charging access; connect to charger board,Yes,250,250
+Battery,Battery wire and connector set,1,1,Use suitable gauge and polarized connector; insulate all joints,Yes,400,400
+Audio,Small speaker,2,2,Choose impedance and power rating compatible with audio amplifier,Yes,400,800
+Audio,2-channel audio amplifier module,1,1,Required unless using powered speakers or integrated audio board,Yes,500,500
+Audio,Electret or MEMS microphone module,1,1,Choose USB, I2S, or analog module compatible with Pi 5,Yes,400,400
+Audio,Microphone cable,1,1,Route to case microphone port,Yes,150,150
+Cooling,5 V fan,1,1,Recommended if Pi 5 is enclosed and under sustained load,Recommended,250,250
+Cooling,Fan grille or filter,1,1,Optional protective grille/filter,Optional,150,150
+Mechanical,M2 or M2.5 Pi mounting screws and nuts,4,1 assorted set,Confirm actual Raspberry Pi 5 mounting-hole hardware,Yes,250,250
+Mechanical,M2/M2.5 display mounting hardware,4,1 assorted set,Confirm Touch Display 2 mounting pattern,Yes,300,300
+Mechanical,M3 enclosure assembly screws,4,8,For front bezel-to-rear-shell fastening,Yes,150,150
+Mechanical,M3 heat-set inserts,4,8,Recommended for repeated case assembly,Recommended,250,250
+Mechanical,Speaker mounting screws,4,8,Match selected speaker mounting holes,Yes,100,100
+Mechanical,Camera bracket screws,2,4,Match camera bracket and enclosure mounting method,Yes,100,100
+Mechanical,Standoffs,4,8,For Pi 5 or audio board mounting if required,Recommended,250,250
+Mechanical,Adhesive foam or battery restraint,1,1,Non-metallic restraint; do not compress or puncture cell,Yes,200,200
+Mechanical,Small cable ties or cable clips,1 pack,1 pack,For internal cable management,Recommended,150,150
+3D printed,Front bezel,1,1,STL: front_bezel.stl,Yes,0,0
+3D printed,Rear shell,1,1,STL: rear_shell.stl,Yes,0,0
+3D printed,Camera bracket,1,1,STL: camera_bracket.stl,Yes,0,0
+3D printed,PLA/PETG filament,Estimated 250-400 g,1 spool,PLA for prototype or PETG for improved heat/impact resistance,Yes,2000,2000
+Electrical,USB-C power cable,1,1,For charging input; compatible with charger board,Yes,300,300
+Electrical,Hookup wire,As required,1 small kit,For power, speakers, microphone, fan, and switch wiring,Yes,500,500
+Electrical,Heat-shrink tubing,As required,1 assorted kit,Insulate soldered joints,Recommended,250,250
+Tools,Temperature-controlled soldering iron kit,1,1,User specified US$25; budgeted at approximately ₹2,100 using ₹84/US$,Yes,2100,2100
+Tools,Digital multimeter,1,1,Useful for checking battery polarity, continuity, and regulated output,Recommended,800,800
+Tools,Solder wire and flux,1 set,1 set,Needed with soldering iron,Yes,400,400
+Tools,Soldering iron stand and brass wool,1,1,Include if not included with the US$25 soldering kit,Recommended,400,400
+Tools,Small screwdriver and cutter set,1 set,1 set,For assembly and wiring,Recommended,500,500
+TOTAL,,,,, , ,39750
